@@ -234,7 +234,7 @@ fit_final <- lm(mpg ~ wt + am + qsec, data = mtcars)
 plot(fit_final)
 ```
 
-![](Regression-Project/figure/unnamed-chunk-7-1.png)<!-- -->
+![](Figure/unnamed-chunk-7-1.png)<!-- -->
 
 In the residual plot, the residuals are randomly distributed around the plot without showing a systematic pattern, which means there is no heterscedasticity. In the Normal Q-Q plot, the dots are distributed around the line with no obvious outliers, so the Normality asscumptions is satisfied. In the last plot (the lower right plot), there are no high influential outliers.
 
