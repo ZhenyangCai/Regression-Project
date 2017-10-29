@@ -52,7 +52,7 @@ ggplot(data = mtcars, aes(x=am, y=mpg))+
   geom_boxplot()
 ```
 
-![](Regression-Project/Figure/unnamed-chunk-4-1.png)<!-- -->
+![](Figure/unnamed-chunk-4-1.png)<!-- -->
 
 Then, from the boxplot below, we can easily tell that the mpg of manual is higher than the mpg of automatic, but the conclusion needs statistical evidence.
 
